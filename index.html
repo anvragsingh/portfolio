@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Portfolio of Anurag Singh - Software Engineer, Full Stack Developer, and Data Scientist specializing in Machine Learning, React, and Java Spring Boot." />
+  <meta name="keywords"
+    content="Anurag Singh, Software Engineer, Full Stack Developer, Machine Learning, Data Science, Portfolio" />
+  <meta name="author" content="Anurag Singh" />
+  <title>Anurag Singh | Software Engineer & Data Scientist</title>
+
+  <!-- Link CSS  -->
+  <link rel="stylesheet" href="./styles.css" />
+
+  <!-- Favicon  -->
+  <link rel="shortcut icon" href="./Images/userAsset/favicon.png" type="image/x-icon" />
+</head>
+
+<body>
+  <div id="wrapper">
+    <!-- Header Start -->
+    <header>
+      <div class="logo">
+
+        <h2 class="logoText">Anurag Singh</h2>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contactMe">Contact Me</a></li>
+          <!-- TODO: Add actual resume link -->
+          <li><a href="./Images/userAsset/Resume.pdf" class="btn-resume" target="_blank"
+              download="Anurag_Singh_Resume">Resume</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Header End  -->
+
+    <!-- Hero Section Start  -->
+    <section class="heroSection">
+      <h3 class="fadedText absolute">Anurag Singh</h3>
+      <div class="infoContainer">
+        <div class="heading">Hi! Anurag Singh</div>
+        <div class="heading subHeading">
+          I am a <span class="role"></span>
+        </div>
+        <p class="desc">
+          I am a Software Engineer and Data Scientist passionate about building scalable web applications and
+          intelligent systems. Explore my journey through full-stack development, machine learning, and data engineering
+          projects.
+        </p>
+        <div class="btn" onclick="document.getElementById('contactMe').scrollIntoView({behavior: 'smooth'})">Hire Me
+        </div>
+      </div>
+      <div class="imgContainer">
+        <div class="absolute icons iconDots">
+          <img src="./images/userAsset/dots.png" alt="" />
+        </div>
+        <div class="absolute icons icon-cube">
+          <img src="./images/userAsset/cube.png" alt="" />
+        </div>
+        <div class="absolute icons icon-circle">
+          <img src="./images/userAsset/circle.png" alt="" />
+        </div>
+        <div class="absolute icons iconZigZag">
+          <img src="./images/userAsset/zigzags.png" alt="" />
+        </div>
+        <div class="absolute icons icon-plus">
+          <img src="./images/userAsset/plus.png" alt="" />
+        </div>
+        <!-- Resume Button in Hero for visibility -->
+        <div class="absolute resume-hero-btn" style="bottom: 20px; left: 0;">
+          <!-- Optional: Add a call to action if needed, or leave it in nav -->
+        </div>
+        <div class="">
+          <div class="userImage">
+            <!-- <img src="./images/userAsset/Anurag.jpg" width="345px" height="390px" alt="" />  -->
+            <img src="./Images/userAsset/Anurag .jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero Section End  -->
+
+    <!-- Experience Section Start -->
+    <section class="experienceSection" id="experience">
+      <div class="container">
+        <h2 class="sectionHeading">Experience</h2>
+
+        <div class="experienceContainer">
+
+          <!-- Samsung -->
+          <div class="experienceCard">
+            <div class="expHeader">
+              <h3 class="expRole">Research Intern</h3>
+              <span class="expCompany">Samsung R&D Institute (Noida)</span>
+              <span class="expDuration">July 2025 – August 2025</span>
+            </div>
+            <ul class="expDetails">
+              <li>Designed and implemented a retrieval-optimized enterprise knowledge intelligence system for Samsung
+                device support and engineering workflows, enabling grounded question-answering over 10K+ heterogeneous
+                device manuals, diagnostic logs, and troubleshooting documents.</li>
+              <li>Engineered a hybrid retrieval pipeline (BM25 + dense embeddings + re-ranking), improving retrieval
+                precision@5 by ~30–40% compared to keyword-only baselines while maintaining sub-second retrieval
+                latency.</li>
+              <li>Developed hallucination-controlled generation and verification layers, reducing unsupported responses
+                by ~45–55%, with explicit source citation and confidence scoring for device fault resolution queries.
+              </li>
+              <li>Conducted system-level experimentation and ablation studies across chunking strategies, retrieval
+                methods, and context budgets, delivering quantitative trade-off insights to guide scalable deployment in
+                Samsung device support environments.</li>
+            </ul>
+          </div>
+
+          <!-- CarInfo -->
+          <div class="experienceCard">
+            <div class="expHeader">
+              <h3 class="expRole">Frontend Developer Intern</h3>
+              <span class="expCompany">CarInfo (Appflix Studio LLP)</span>
+              <span class="expDuration">Jan 2025 – June 2025</span>
+            </div>
+            <ul class="expDetails">
+              <li>Architected and deployed a high-throughput Voucher Redemption System using Java Spring Boot, handling
+                high-concurrency user traffic and ensuring stable performance during peak promotional loads.</li>
+              <li>Built and managed internal system monitoring dashboards using Kibana, tracking backend latency,
+                success rates, and failure patterns to enable data-driven optimization and faster incident diagnosis.
+              </li>
+              <li>Designed and integrated a Python + Regex–based PDF and web scraping pipeline to extract vehicle
+                challan and compliance data from external sources, eliminating dependency on paid APIs and significantly
+                improving response time and cost efficiency.</li>
+              <li>Owned end-to-end maintenance of the challan renewal and compliance workflows, including log analysis,
+                system debugging, and backend fixes to ensure uninterrupted service availability.</li>
+            </ul>
+          </div>
+
+          <!-- CDAC -->
+          <div class="experienceCard">
+            <div class="expHeader">
+              <h3 class="expRole">Digital Forensics Intern</h3>
+              <span class="expCompany">CDAC (Noida)</span>
+              <span class="expDuration">3 Months</span>
+            </div>
+            <ul class="expDetails">
+              <li>Analyzed large-scale system logs, disk images, and network traffic across 4–5 internal forensic
+                datasets, identifying anomalies, broken system states, and suspicious activity to support ongoing
+                digital forensics investigations.</li>
+              <li>Automated forensic workflows using Python-based analysis scripts, reducing investigation turnaround
+                time by ~30% while improving coverage and consistency across disk image and log analysis tasks.</li>
+              <li>Designed and maintained internal monitoring and forensic dashboards (Flask-based UI) to visualize
+                investigation status, log patterns, and network activity, enabling faster decision-making for the
+                forensics team.</li>
+              <li>Implemented role-based access control (RBAC) for internal forensic tools and dashboards, ensuring
+                secure, permission-driven access for analysts and investigators working on sensitive datasets.</li>
+              <li>Utilized Autopsy and FTK Imager for disk image acquisition and analysis, integrating tool outputs into
+                automated pipelines and structured reports for internal review.</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- Experience Section End -->
+
+    <!-- Project Section Start -->
+    <section id="projects" class="projectSection">
+      <h2 class="projectTitle">Projects</h2>
+      <div class="projectContainer">
+
+        <!-- Project 1: Breast Care -->
+        <div class="projectCard" id="project1">
+          <div class="projectNumber rightNumber">01</div>
+          <div class="projectContent leftProjectContent">
+            <div class="projectSkillsContainer">
+              <img class="projectSkill" src="./images/stack/HTML.png" alt="" />
+              <img class="projectSkill" src="./images/stack/CSS.png" alt="" />
+              <img class="projectSkill" src="./images/stack/Javascript.svg" alt="" />
+              <img class="projectSkill" src="./images/stack/Python.svg" alt="" />
+            </div>
+            <h2 class="projectHeading">Breast Care</h2>
+            <p class="projectSubHeading">
+              Full stack website for breast cancer detection and awareness.
+            </p>
+            <div class="btnGroup">
+              <a href="https://github.com/anvragsingh/Breast-Care" target="_blank">
+                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+              </a>
+              <a href="https://github.com/Aryan-Singh17/CMMD_Project" target="_blank">
+                <i title="GitHubLink CMMD" class="fa-brands fa-github icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2: StayFinder -->
+        <div class="projectCard" id="project2">
+          <div class="projectNumber leftNumber">02</div>
+          <div class="projectContent rightProjectContent">
+            <div class="projectSkillsContainer">
+              <img class="projectSkill" src="./images/stack/HTML.png" alt="" />
+              <img class="projectSkill" src="./images/stack/CSS.png" alt="" />
+              <img class="projectSkill" src="./images/stack/Javascript.svg" alt="" />
+            </div>
+            <h2 class="projectHeading">StayFinder</h2>
+            <p class="projectSubHeading">
+              A room booking site for finding comfortable stays.
+            </p>
+            <div class="btnGroup">
+              <a href="https://github.com/anvragsingh/StayFinder" target="_blank">
+                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3: RAG Chatbot -->
+        <div class="projectCard" id="project3">
+          <div class="projectNumber rightNumber">03</div>
+          <div class="projectContent leftProjectContent">
+            <div class="projectSkillsContainer">
+              <img class="projectSkill" src="./images/stack/Python.svg" alt="" />
+              <img class="projectSkill" src="./images/stack/TensorFlow.svg" alt="" />
+            </div>
+            <h2 class="projectHeading">Samsung RAG GenAI Chatbot</h2>
+            <p class="projectSubHeading">
+              Retrieval-optimized enterprise knowledge intelligence system for Samsung device support.
+              (Under Internship)
+            </p>
+            <!-- No public link for internship project usually -->
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- Project Section End  -->
+
+    <!-- Skill Section Start  -->
+    <section class="skillContainer" id="skills">
+      <div class="skillFadedText absolute">Skills</div>
+
+      <div class="skillsContentWrapper">
+        <h2 class="skillHeading"><span>T</span>ech Stack</h2>
+        <p class="skillDesc">
+          A robust set of technologies I use to build scalable, data-driven applications.
+        </p>
+
+        <div class="skillsGrid">
+
+          <!-- Backend & Data -->
+          <div class="skillCategory">
+            <h3>Backend & Data</h3>
+            <div class="skillList">
+              <div class="skillItem"><img src="./images/stack/Python.svg" alt="Python" /> <span>Python</span></div>
+              <div class="skillItem"><img src="./images/stack/NodeJs.svg" alt="NodeJs" /> <span>Node.js</span></div>
+              <div class="skillItem"><img src="./images/stack/Express.png" alt="Express" /> <span>Express</span></div>
+              <div class="skillItem"><img src="./images/stack/MongoDB.svg" alt="MongoDB" /> <span>MongoDB</span></div>
+              <div class="skillItem"><img src="./images/stack/mysql q.svg" alt="MySQL" /> <span>MySQL</span></div>
+            </div>
+          </div>
+
+          <!-- Frontend -->
+          <div class="skillCategory">
+            <h3>Frontend</h3>
+            <div class="skillList">
+              <div class="skillItem"><img src="./images/stack/React.png" alt="React" /> <span>React</span></div>
+              <div class="skillItem"><img src="./images/stack/NextJsCircle.png" alt="Next.js" /> <span>Next.js</span>
+              </div>
+              <div class="skillItem"><img src="./images/stack/Tailwind.png" alt="Tailwind" /> <span>Tailwind</span>
+              </div>
+              <div class="skillItem"><img src="./images/stack/HTML.png" alt="HTML" /> <span>HTML5</span></div>
+              <div class="skillItem"><img src="./images/stack/CSS.png" alt="CSS" /> <span>CSS3</span></div>
+              <div class="skillItem"><img src="./images/stack/Javascript.svg" alt="JS" /> <span>JavaScript</span></div>
+              <div class="skillItem"><img src="./images/stack/Redux.svg" alt="Redux" /> <span>Redux</span></div>
+            </div>
+          </div>
+
+          <!-- ML & Data Science -->
+          <div class="skillCategory">
+            <h3>ML & Data Science</h3>
+            <div class="skillList">
+              <div class="skillItem"><img src="./images/stack/TensorFlow.svg" alt="TensorFlow" />
+                <span>TensorFlow</span>
+              </div>
+              <div class="skillItem"><img src="./images/stack/scikit-learn.svg" alt="Scikit-Learn" />
+                <span>Scikit-Learn</span>
+              </div>
+              <div class="skillItem"><img src="./images/stack/Pandas.svg" alt="Pandas" /> <span>Pandas</span></div>
+              <div class="skillItem"><img src="./images/stack/NumPy.svg" alt="NumPy" /> <span>NumPy</span></div>
+              <div class="skillItem"><img src="./images/stack/icons8-power-bi-logo.svg" alt="PowerBI" />
+                <span>PowerBI</span>
+              </div>
+              <div class="skillItem"><img src="./images/stack/tableau-svgrepo-com.svg" alt="Tableau" />
+                <span>Tableau</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tools -->
+          <div class="skillCategory">
+            <h3>Tools & DevOps</h3>
+            <div class="skillList">
+              <div class="skillItem"><img src="./images/stack/Git.svg" alt="Git" /> <span>Git</span></div>
+              <div class="skillItem"><img src="./images/stack/Github.svg" alt="GitHub" /> <span>GitHub</span></div>
+              <div class="skillItem"><img src="./images/stack/Vercel.svg" alt="Vercel" /> <span>Vercel</span></div>
+              <div class="skillItem"><img src="./images/stack/Bash.svg" alt="Bash" /> <span>Bash</span></div>
+              <div class="skillItem"><img src="./images/stack/Visual Studio Code (VS Code).svg" alt="VS Code" />
+                <span>VS Code</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- Skill Section End  -->
+
+    <!-- Academic Achievements Section Start -->
+    <section class="achievementsSection" id="achievements">
+      <div class="container">
+        <h2 class="sectionHeading">Academic Achievements</h2>
+        <div class="achievementsGrid">
+          <div class="achievementCard">
+            <h3>McKinsey Forward Learner Fellowship '25</h3>
+          </div>
+          <div class="achievementCard">
+            <h3>EY Sustainable Development Challenge</h3>
+            <p>1st Runner-up</p>
+          </div>
+          <div class="achievementCard">
+            <h3>SIH '24</h3>
+            <p>Top 5 Finalist</p>
+          </div>
+          <div class="achievementCard">
+            <h3>ElectricPe</h3>
+            <p>Best Hive Business Case Study</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Academic Achievements Section End -->
+
+    <!-- Contact Me Section Start  -->
+    <section class="contactMeSection" id="contactMe">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <h3>Questions, Thoughts, Or Just Want To Say Hello?</h3>
+
+        <div class="contactUsForm">
+          <form action="#">
+            <div class="formFieldContainer">
+              <input class="formField" type="text" placeholder="Enter your name" />
+            </div>
+            <div class="formFieldContainer">
+              <input class="formField" type="email" placeholder="Enter your email address" />
+            </div>
+            <div class="formFieldContainer">
+              <input class="formField" type="text" placeholder="Enter your Subject address" />
+            </div>
+            <div class="formFieldContainer">
+              <textarea class="formField" name="message" id="" cols="30" rows="10"
+                placeholder="Enter your message"></textarea>
+            </div>
+            <div class="formBtn">
+              <button type="submit" class="btn" id="submit-btn">
+                Send Message<i class="submit-icon fa-solid fa-paper-plane"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Me Section End  -->
+
+    <!-- Footer Section Start  -->
+    <footer>
+      <div class="container footerContainer">
+        <div class="footerFadedText">Anurag Singh</div>
+        <div class="linkContainer">
+          <div>
+            <a href="#experience">Experience</a>
+          </div>
+          <div>
+            <a href="#projects">Projects</a>
+          </div>
+          <div>
+            <a href="#skills">Skills</a>
+          </div>
+          <div>
+            <a href="#contactMe">Contact Me</a>
+          </div>
+        </div>
+        <div class="iconContainer">
+          <a href="https://www.linkedin.com/in/anurag-singh-2011ac/" target="_blank">
+            <i class="fa-brands fa-linkedin icon"></i>
+          </a>
+          <a href="https://github.com/anvragsingh" target="_blank">
+            <i class="fa-brands fa-github icon"></i>
+          </a>
+          <a href="mailto:anvragsingh@gmail.com">
+            <i class="fa-regular fa-envelope icon"></i>
+          </a>
+        </div>
+
+
+    </footer>
+  </div>
+  </div>
+  </footer>
+  </div>
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+  <!-- <script>
+      document.addEventListener("DOMContentLoaded", function (event) {
+        // array with texts to type in typewriter
+        var dataText = [
+          "Data Analyst",
+          "ML Engineer",
+          "Data Scientist",
+          
+          "Coder",
+        ];
+
+        // type one text in the typwriter
+        // keeps calling itself until the text is finished
+        function typeWriter(text, i, fnCallback) {
+          // chekc if text isn't finished yet
+          if (i < text.length) {
+            // add next character to h1
+            document.querySelector(".role").innerHTML =
+              text.substring(0, i + 1) + '<span aria-hidden="true"></span>';
+
+            // wait for a while and call this function again for next character
+            setTimeout(function () {
+              typeWriter(text, i + 1, fnCallback);
+            }, 100);
+          }
+          // text finished, call callback if there is a callback function
+          else if (typeof fnCallback == "function") {
+            // call callback after timeout
+            setTimeout(fnCallback, 700);
+          }
+        }
+        // start a typewriter animation for a text in the dataText array
+        function StartTextAnimation(i) {
+          if (typeof dataText[i] == "undefined") {
+            setTimeout(function () {
+              StartTextAnimation(0);
+            }, 20000);
+          }
+          // check if dataText[i] exists
+          if (i < dataText[i].length) {
+            // text exists! start typewriter animation
+            typeWriter(dataText[i], 0, function () {
+              // after callback (and whole text has been animated), start next text
+              StartTextAnimation(i + 1);
+            });
+          }
+        }
+        // start the text animation
+        StartTextAnimation(0);
+      });
+    </script> -->
+  <script>
+    var typeData = new Typed(".role", {
+      strings: [
+        "Software Engineer",
+        "Full Stack Developer",
+        "Frontend Developer",
+        "Data Engineer",
+      ],
+      loop: true,
+      typeSpeed: 100,
+      backSpeed: 80,
+      backDelay: 1000,
+    });
+
+    // Scroll Animations
+    const observerOptions = {
+      root: null,
+      rootMargin: '0px',
+      threshold: 0.1
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, observerOptions);
+
+    const hiddenElements = document.querySelectorAll('.experienceCard, .achievementCard, .projectCard, .skillCategory');
+    hiddenElements.forEach((el) => observer.observe(el));
+  </script>
+</body>
+
+</html>
