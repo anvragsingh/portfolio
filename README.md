@@ -2,8 +2,6 @@
 
 A professional, responsive personal portfolio website showcasing my journey as a Software Engineer, Full Stack Developer, and Data Scientist.
 
-![Portfolio Preview](https://via.placeholder.com/1000x500?text=Portfolio+Preview)
-*(Replace this line with an actual screenshot of your hero section!)*
 
 ## 🚀 Features
 
