@@ -37,16 +37,6 @@ A professional, responsive personal portfolio website showcasing my journey as a
     └── stack/          # Tech stack icons
 ```
 
-## 🚀 How to Deploy
-
-This project is a static site and can be deployed for free on **Vercel** or **GitHub Pages**.
-
-### Vercel (Recommended)
-1.  Push this code to a GitHub repository.
-2.  Go to [Vercel](https://vercel.com) and sign in with GitHub.
-3.  Click "New Project" and import this repository.
-4.  Click "Deploy".
-
 ### GitHub Pages
 1.  Go to your Repository Settings on GitHub.
 2.  Navigate to "Pages".
