@@ -349,19 +349,19 @@
         <h3>Questions, Thoughts, Or Just Want To Say Hello?</h3>
 
         <div class="contactUsForm">
-          <form action="#">
+          <form action="https://formspree.io/f/xqebbzvn" method="POST">
             <div class="formFieldContainer">
-              <input class="formField" type="text" placeholder="Enter your name" />
+              <input class="formField" type="text" name="name" placeholder="Enter your name" required />
             </div>
             <div class="formFieldContainer">
-              <input class="formField" type="email" placeholder="Enter your email address" />
+              <input class="formField" type="email" name="email" placeholder="Enter your email address" required />
             </div>
             <div class="formFieldContainer">
-              <input class="formField" type="text" placeholder="Enter your Subject address" />
+              <input class="formField" type="text" name="subject" placeholder="Enter your Subject address" />
             </div>
             <div class="formFieldContainer">
-              <textarea class="formField" name="message" id="" cols="30" rows="10"
-                placeholder="Enter your message"></textarea>
+              <textarea class="formField" name="message" id="" cols="30" rows="10" placeholder="Enter your message"
+                required></textarea>
             </div>
             <div class="formBtn">
               <button type="submit" class="btn" id="submit-btn">
